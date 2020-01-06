@@ -10,8 +10,8 @@ A shareable [stylelint](https://stylelint.io/) config for Sass projects.
     ```npmrc
     @glen-84:registry=https://npm.pkg.github.com
     ```
-1. Run `npm install @glen-84/stylelint-config --save-dev`.
-2. Add `"@glen-84/stylelint-config"` to the `extends` property in your `.stylelintrc.js` file.
+2. Run `npm install @glen-84/stylelint-config --save-dev`.
+3. Add `"@glen-84/stylelint-config"` to the `extends` property in your `.stylelintrc.js` file.
 
 ### Important notes
 
