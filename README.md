@@ -15,6 +15,8 @@ A shareable [stylelint](https://stylelint.io/) config for Sass projects.
 
 ### Important notes
 
+* If your application uses font icons, you will need to customize the `font-family-no-missing-generic-family-keyword` rule configuration in your `.stylelintrc.js` file.
+    * e.g. `"font-family-no-missing-generic-family-keyword": [true, {ignoreFontFamilies: ["FontAwesome"]}]`
 * If your application uses custom elements, you will need to customize the `selector-type-no-unknown` rule configuration in your `.stylelintrc.js` file.
     * e.g. `"selector-type-no-unknown": [true, {ignoreTypes: [/^app-/]}]` (to ignore custom elements beginning with "app-")
 
