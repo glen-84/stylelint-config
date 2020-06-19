@@ -6,6 +6,9 @@ module.exports = {
     plugins: ["stylelint-scss"],
     // IMPORTANT: Please keep these rules in alphabetical order.
     rules: {
+        // TODO: Remove "exceptProperties" option when browser support improves.
+        // See https://caniuse.com/#feat=mdn-css_properties_opacity_percentages.
+        "alpha-value-notation": ["percentage", {exceptProperties: ["opacity"]}],
         "at-rule-blacklist": ["debug", "warn"],
         "at-rule-empty-line-before": [
             "always",
