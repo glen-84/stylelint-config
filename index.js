@@ -107,6 +107,7 @@ module.exports = {
         "function-url-quotes": "always",
         "function-url-scheme-whitelist": [],
         "function-whitespace-after": "always",
+        "hue-degree-notation": "angle",
         "indentation": 4,
         "keyframe-declaration-no-important": true,
         "keyframes-name-pattern": kebabCase,
