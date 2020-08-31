@@ -9,7 +9,7 @@ module.exports = {
         // TODO: Remove "exceptProperties" option when browser support improves.
         // See https://caniuse.com/#feat=mdn-css_properties_opacity_percentages.
         "alpha-value-notation": ["percentage", {exceptProperties: ["opacity"]}],
-        "at-rule-blacklist": ["debug", "warn"],
+        "at-rule-disallowed-list": ["debug", "warn"],
         "at-rule-empty-line-before": [
             "always",
             {
@@ -73,12 +73,12 @@ module.exports = {
             }
         ],
         "declaration-no-important": true,
-        "declaration-property-unit-whitelist": {
+        "declaration-property-unit-allowed-list": {
             "/^font(-size)?$/": ["em", "rem"],
             // See https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values.
             "line-height": []
         },
-        "declaration-property-value-blacklist": [
+        "declaration-property-value-disallowed-list": [
             {
                 // See https://stackoverflow.com/a/8962837/221528.
                 "/^transition(-property)?$/": ["/\\ball\\b/"]
@@ -105,7 +105,7 @@ module.exports = {
         "function-parentheses-space-inside": "never-single-line",
         "function-url-no-scheme-relative": true,
         "function-url-quotes": "always",
-        "function-url-scheme-whitelist": [],
+        "function-url-scheme-allowed-list": [],
         "function-whitespace-after": "always",
         "hue-degree-notation": "angle",
         "indentation": 4,

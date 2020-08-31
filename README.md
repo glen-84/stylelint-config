@@ -49,32 +49,32 @@ Run `npm install` to install the project dependencies.
 
 ### No use for
 
+* `at-rule-allowed-list` – using `at-rule-disallowed-list` instead.
 * `at-rule-name-newline-after`
 * `at-rule-no-unknown` – using `scss/at-rule-no-unknown` instead.
-* `at-rule-property-requirelist`
-* `at-rule-whitelist` – using `at-rule-blacklist` instead.
+* `at-rule-property-required-list`
 * `block-closing-brace-space-after`
 * `block-opening-brace-newline-before`
 * `color-no-hex`
-* `comment-word-blacklist`
+* `comment-word-disallowed-list`
 * `declaration-block-semicolon-newline-before`
-* `declaration-property-unit-blacklist`
-* `declaration-property-value-whitelist`
-* `function-blacklist`
+* `declaration-property-unit-disallowed-list`
+* `declaration-property-value-allowed-list`
+* `function-allowed-list`
 * `function-comma-newline-before` – using `function-comma-space-before` instead.
-* `function-url-scheme-blacklist` – using `function-url-scheme-whitelist` instead.
-* `function-whitelist`
-* `media-feature-name-blacklist`
-* `media-feature-name-value-whitelist`
-* `media-feature-name-whitelist`
+* `function-disallowed-list`
+* `function-url-scheme-disallowed-list` – using `function-url-scheme-allowed-list` instead.
+* `media-feature-name-allowed-list`
+* `media-feature-name-disallowed-list`
+* `media-feature-name-value-allowed-list`
 * `media-query-list-comma-newline-before` – using `media-query-list-comma-space-before` instead.
 * `no-invalid-double-slash-comments` – applies only to CSS, not Sass.
-* `property-blacklist`
-* `property-whitelist`
-* `selector-attribute-operator-blacklist`
-* `selector-attribute-operator-whitelist`
-* `selector-combinator-blacklist`
-* `selector-combinator-whitelist`
+* `property-allowed-list`
+* `property-disallowed-list`
+* `selector-attribute-operator-allowed-list`
+* `selector-attribute-operator-disallowed-list`
+* `selector-combinator-allowed-list`
+* `selector-combinator-disallowed-list`
 * `selector-id-pattern` – ID selectors may not be used.
 * `selector-list-comma-space-after` – using `selector-list-comma-newline-after` instead.
 * `selector-max-attribute`
@@ -86,16 +86,16 @@ Run `npm install` to install the project dependencies.
 * `selector-max-type`
 * `selector-max-universal`
 * `selector-nested-pattern`
-* `selector-pseudo-class-blacklist`
-* `selector-pseudo-class-whitelist`
-* `selector-pseudo-element-blacklist`
-* `selector-pseudo-element-whitelist`
+* `selector-pseudo-class-allowed-list`
+* `selector-pseudo-class-disallowed-list`
+* `selector-pseudo-element-allowed-list`
+* `selector-pseudo-element-disallowed-list`
 * `time-min-milliseconds`
-* `unit-blacklist`
-* `unit-whitelist`
+* `unit-allowed-list`
+* `unit-disallowed-list`
 * `value-list-comma-newline-before` – using `value-list-comma-space-before` instead.
 
 ## Used rules with issues
 
-* `declaration-property-value-blacklist`
+* `declaration-property-value-disallowed-list`
     * https://github.com/stylelint/stylelint/issues/4117
