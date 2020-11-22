@@ -37,7 +37,7 @@ Run `npm install` to install the project dependencies.
 ### Has issues
 
 * `color-function-notation`
-    * Modern syntax not yet supported by Sass.
+    * https://github.com/microsoft/vscode/issues/43111
 * `no-descending-specificity`
     * https://github.com/stylelint/stylelint/issues/3738
     * https://github.com/stylelint/stylelint/issues/4010
