@@ -42,6 +42,7 @@ module.exports = {
             }
         ],
         "comment-no-empty": true,
+        "comment-pattern": /^([^a-z]|prettier-ignore)/,
         "comment-whitespace-inside": "always",
         "custom-media-pattern": kebabCase,
         "custom-property-empty-line-before": [
