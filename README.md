@@ -71,6 +71,7 @@ Run `npm install` to install the project dependencies.
 * `no-invalid-double-slash-comments` – applies only to CSS, not Sass.
 * `property-allowed-list`
 * `property-disallowed-list`
+* `selector-attribute-name-disallowed-list`
 * `selector-attribute-operator-allowed-list`
 * `selector-attribute-operator-disallowed-list`
 * `selector-combinator-allowed-list`
