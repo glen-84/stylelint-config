@@ -182,5 +182,8 @@ module.exports = {
         "value-list-comma-space-before": "never",
         "value-list-max-empty-lines": 0,
         "value-no-vendor-prefix": true
-    }
+    },
+    reportNeedlessDisables: true,
+    reportInvalidScopeDisables: true,
+    reportDescriptionlessDisables: true
 };
