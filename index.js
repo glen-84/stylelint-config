@@ -55,6 +55,7 @@ module.exports = {
         "custom-property-pattern": kebabCase,
         "declaration-bang-space-after": "never",
         "declaration-bang-space-before": "always",
+        "declaration-block-no-duplicate-custom-properties": true,
         "declaration-block-no-duplicate-properties": true,
         "declaration-block-no-redundant-longhand-properties": true,
         "declaration-block-no-shorthand-property-overrides": true,
