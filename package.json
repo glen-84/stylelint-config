@@ -1,6 +1,6 @@
 {
     "name": "@glen-84/stylelint-config",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "A shareable stylelint config for Sass projects.",
     "author": "Glen Ainscow",
     "main": "index.js",
