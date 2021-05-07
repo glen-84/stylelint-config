@@ -23,7 +23,7 @@
         "simple-git-hooks": "^2.4.1"
     },
     "peerDependencies": {
-        "stylelint": "^13.12.0",
+        "stylelint": "^13.13.1",
         "stylelint-scss": "^3.14.2"
     },
     "repository": {
