@@ -75,11 +75,16 @@ module.exports = {
             }
         ],
         "declaration-no-important": true,
-        "declaration-property-unit-allowed-list": {
-            "/^font(-size)?$/": ["em", "rem"],
-            // See https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values.
-            "line-height": []
-        },
+        "declaration-property-unit-allowed-list": [
+            {
+                "/^font(-size)?$/": ["em", "rem"],
+                // See https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values.
+                "line-height": []
+            },
+            {
+                ignore: ["inside-function"]
+            }
+        ],
         "declaration-property-value-disallowed-list": [
             {
                 // See https://stackoverflow.com/a/8962837/221528.
