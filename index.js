@@ -30,10 +30,9 @@ module.exports = {
         "block-opening-brace-newline-after": "always-multi-line",
         "block-opening-brace-space-after": "always-single-line",
         "block-opening-brace-space-before": "always",
-        "color-hex-case": "lower",
-        "color-hex-length": "short",
         "color-named": "never",
-        "color-no-invalid-hex": true,
+        // See https://elad.medium.com/why-css-hsl-colors-are-better-83b1e0b6eead.
+        "color-no-hex": true,
         "comment-empty-line-before": [
             "always",
             {
@@ -105,6 +104,11 @@ module.exports = {
         "function-comma-newline-after": "always-multi-line",
         "function-comma-space-after": "always-single-line",
         "function-comma-space-before": "never",
+        "function-disallowed-list": [
+            // See https://elad.medium.com/why-css-hsl-colors-are-better-83b1e0b6eead.
+            "rgb",
+            "rgba"
+        ],
         "function-linear-gradient-no-nonstandard-direction": true,
         "function-max-empty-lines": 0,
         "function-name-case": "lower",

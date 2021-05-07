@@ -55,14 +55,15 @@ Run `npm install` to install the project dependencies.
 * `at-rule-property-required-list`
 * `block-closing-brace-space-after`
 * `block-opening-brace-newline-before`
-* `color-no-hex`
+* `color-hex-case` – hexadecimal notation may not be used.
+* `color-hex-length` – hexadecimal notation may not be used.
+* `color-no-invalid-hex` – hexadecimal notation may not be used.
 * `comment-word-disallowed-list`
 * `declaration-block-semicolon-newline-before`
 * `declaration-property-unit-disallowed-list`
 * `declaration-property-value-allowed-list`
 * `function-allowed-list`
 * `function-comma-newline-before` – using `function-comma-space-before` instead.
-* `function-disallowed-list`
 * `function-url-scheme-disallowed-list` – using `function-url-scheme-allowed-list` instead.
 * `media-feature-name-allowed-list`
 * `media-feature-name-disallowed-list`
