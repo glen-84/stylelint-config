@@ -137,6 +137,7 @@ module.exports = {
         "no-eol-whitespace": true,
         "no-extra-semicolons": true,
         "no-invalid-position-at-import-rule": true,
+        "no-irregular-whitespace": true,
         "no-missing-end-of-source-newline": true,
         "number-leading-zero": "always",
         "number-max-precision": 3,
