@@ -76,6 +76,7 @@ Run `npm install` to install the project dependencies.
 * `selector-attribute-operator-disallowed-list`
 * `selector-combinator-allowed-list`
 * `selector-combinator-disallowed-list`
+* `selector-disallowed-list`
 * `selector-id-pattern` – ID selectors may not be used.
 * `selector-list-comma-space-after` – using `selector-list-comma-newline-after` instead.
 * `selector-max-attribute`
