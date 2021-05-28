@@ -41,7 +41,7 @@ module.exports = {
             }
         ],
         "comment-no-empty": true,
-        "comment-pattern": /^([^a-z]|prettier-ignore)/,
+        "comment-pattern": /^([^a-z]|prettier-ignore|stylelint-)/,
         "comment-whitespace-inside": "always",
         "custom-media-pattern": kebabCase,
         "custom-property-empty-line-before": [
